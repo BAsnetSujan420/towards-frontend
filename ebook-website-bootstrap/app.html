@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Net Ninja - Book</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!----TYPOGRAPHY---->
+
+    <!--heading tags-->
+    <h1>Bootstrap 5 tutorial</h1>
+    <h2>this is an h2</h2>
+    <h3>this is an h3</h3>
+
+    <h2 class="h3">this is an h2 tag with the h3 class</h2>
+
+    <!--display headings-->
+    <h1 class="display-1">display 1 heading</h1>
+    <h class="display-2">display 2 heading</h>
+    <h1 class="display-4">display 4 heading</h1>
+    <h1 class="display-6">display 6 heading</h1>
+
+    <p class="display-1">p tag with display 1</p>
+
+    <!--lead text and alignment-->
+
+    <p class="text-end">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <p class="lead">
+      Lead paragraph ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <p class="lead text-center">
+      Lead paragraph ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+
+    <!--text decoration and font weight-->
+
+    <p class="text-decoration-underline">This is underline text</p>
+    <p class="text-decoration-line-through">This is linethrough text</p>
+    <p class="fw-bold">This is bold text</p>
+    <small>this is small text</small>
+
+    <!--text colors-->
+    <p class="text-primary">theme primary color</p>
+    <p class="text-secondary">theme secondary color</p>
+    <p class="text-info">theme info color</p>
+    <p class="text-warning">theme warning color</p>
+    <p class="text-success">theme success color</p>
+    <p class="text-danger">theme danger color</p>
+    <p class="text-muted">theme muted color</p>
+
+    <!--background colors-->
+    <p class="text-white bg-primary">white text in primary bg</p>
+    <p class="text-white bg-secondary">white text on secondary</p>
+    <p class="text-light bg-danger">light text on danger bg</p>
+
+    <!-----BUTTONS---->
+    <h2>Buttons</h2>
+
+    <!--basic buttons-->
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
+
+    <!--anchor tags as button-->
+    <h4>Links as button</h4>
+    <a href="#" class="btn btn-info">info anchor tag</a>
+    <a href="#" class="btn btn-success">success anchor tag</a>
+
+    <!--button sizes-->
+    <h4>Button sizes</h4>
+    <button class="btn btn-lg btn-danger">Large Button</button>
+    <button class="btn btn-danger">Danger Button</button>
+    <button class="btn btn-sm btn-warning">Small Button</button>
+
+    <!--outlined styles-->
+    <h4>Button styles</h4>
+    <button class="btn btn-outline-primary">Outlined primary Button</button>
+    <button class="btn btn-outline-secondary btn-lg">
+      Large Outlined Button
+    </button>
+
+    <!--button groups-->
+    <h4>Button Groups</h4>
+    <div class="btn-group">
+      <a href="#" class="btn btn-primary">button 1</a>
+      <a href="#" class="btn btn-warning">button 2</a>
+      <a href="#" class="btn btn-success">button 3</a>
+    </div>
+
+    <!--UTILITIES-->
+    <h1 class="mt-5">Utility Classes</h1>
+
+    <!--margin and padding-->
+    <div class="bg-secondary">no padding and margin</div>
+    <div class="bg-secondary m-1 p-1">small margin and padding</div>
+    <div class="bg-secondary m-5 p-5">large margin and padding</div>
+    <div class="bg-secondary my-3 px-5">
+      margin in y direction and padding in x direction
+    </div>
+    <div class="bg-secondary mt-4 mb-3 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">
+      margin and padding for each direction
+    </div>
+
+    <!--borders-->
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-end">individual borders</div>
+    <div class="m-3 p-3 border-start border-success">
+      border success color at start
+    </div>
+    <div class="m-3 p-3 border-start border-danger border-5">
+      thicker border
+    </div>
+    <div class="m-3 p-3 rounded border border-4">rounded corners</div>
+    <div class="m-3 p-3 rounded-pill border boder-3">rounded pill corners</div>
+
+    <!--box shadow-->
+    <div class="m-3 p-3 shadow-sm">element with small box shadow</div>
+    <div class="m-3 p-3 shadow">element with box shadow</div>
+
+    <div class="m-3 p-3 shadow-lg">element with large box shadow</div>
+
+    <!--font weight-->
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bolder text</p>
+    <p>normal text</p>
+    <p class="fw-loght">light text</p>
+    <p class="fst-italic">italic text</p>
+    <p class="fst-italic fw-light">italic light text</p>
+
+    <!--CONTAINERS-->
+    <h1 class="mt-5 text-center">Containers</h1>
+
+    <div class="container my-5">
+      <h2>normal container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a deserunt
+        deleniti nesciunt dolores, earum perferendis aut quisquam similique nam
+        quod aliquid eius laudantium labore voluptatum voluptate exercitationem
+        in ullam!
+      </p>
+    </div>
+
+    <div class="container-fluid my-5">
+      <h2>fluid container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a deserunt
+        deleniti nesciunt dolores, earum perferendis aut quisquam similique nam
+        quod aliquid eius laudantium labore voluptatum voluptate exercitationem
+        in ullam!
+      </p>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>100% with until lg screen container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a deserunt
+        deleniti nesciunt dolores, earum perferendis aut quisquam similique nam
+        quod aliquid eius laudantium labore voluptatum voluptate exercitationem
+        in ullam!
+      </p>
+    </div>
+
+    <div class="container-md my-5">
+      <h2>100% with until md screen container</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a deserunt
+        deleniti nesciunt dolores, earum perferendis aut quisquam similique nam
+        quod aliquid eius laudantium labore voluptatum voluptate exercitationem
+        in ullam!
+      </p>
+    </div>
+
+    <!--GRID-->
+    <h2 class="text-center">Grids</h2>
+
+    <div class="container-lg my-5">
+      <h2>basic grid</h2>
+      <div class="row">
+        <div class="col">
+          <div class="p-5 bg-secondary text-light">col 1</div>
+        </div>
+        <div class="col">
+          <div class="p-5 bg-secondary text-light">col 2</div>
+        </div>
+        <div class="col">
+          <div class="p-5 bg-secondary text-light">col 3</div>
+        </div>
+        <div class="col">
+          <div class="p-5 bg-secondary text-light">col 4</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>column widths</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="p-5 bg-secondary text-light">col 1</div>
+        </div>
+        <div class="col-3">
+          <div class="p-5 bg-secondary text-light">col 2</div>
+        </div>
+        <div class="col-3">
+          <div class="p-5 bg-secondary text-light">col 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>responsive column widths</h2>
+      <div class="row">
+        <div class="col-sm-4 col-lg-6">
+          <div class="p-5 bg-secondary text-light">col 1</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+          <div class="p-5 bg-secondary text-light">col 2</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+          <div class="p-5 bg-secondary text-light">col 3</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>justifying columns</h2>
+      <div class="row justify-content-between">
+        <div class="col-md-3">
+          <div class="p-5 bg-secondary text-light">col 1</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-5 bg-secondary text-light">col 2</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-5 bg-secondary text-light">col 3</div>
+        </div>
+      </div>
+    </div>
+
+    <!--tabs-->
+    <div class="container my-5">
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button
+            class="nav-link active"
+            id="nav-home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-home"
+            type="button"
+            role="tab"
+            aria-controls="nav-home"
+            aria-selected="true"
+          >
+            Home
+          </button>
+          <button
+            class="nav-link"
+            id="nav-profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-profile"
+            type="button"
+            role="tab"
+            aria-controls="nav-profile"
+            aria-selected="true"
+          >
+            Profile
+          </button>
+          <button
+            class="nav-link"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="true"
+          >
+            Contact
+          </button>
+        </div>
+      </nav>
+
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          class="tab-pane fade show active p-3"
+          id="nav-home"
+          role="tabpanel"
+          aria-labelledby="nav-home-tab"
+        >
+          <h2>Home</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            quidem sit nam. Molestias aperiam consequatur sint quas pariatur
+            provident aut, illum voluptatem hic impedit, totam ipsam earum,
+            distinctio sed ut!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            veritatis at nostrum ratione nemo dolorum labore, inventore
+            molestiae eligendi consectetur quaerat quidem unde a blanditiis. Est
+            eaque recusandae numquam architecto.
+          </p>
+        </div>
+
+        <div
+          class="tab-pane fade p-3"
+          id="nav-profile"
+          role="tabpanel"
+          aria-labelledby="nav-profile-tab"
+        >
+          <h2>Profile</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            quidem sit nam. Molestias aperiam consequatur sint quas pariatur
+            provident aut, illum voluptatem hic impedit, totam ipsam earum,
+            distinctio sed ut!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            veritatis at nostrum ratione nemo dolorum labore, inventore
+            molestiae eligendi consectetur quaerat quidem unde a blanditiis. Est
+            eaque recusandae numquam architecto.
+          </p>
+        </div>
+
+        <div
+          class="tab-pane fade p-3"
+          id="nav-contact"
+          role="tabpanel"
+          aria-labelledby="nav-contact-tab"
+        >
+          <h2>Contact</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            quidem sit nam. Molestias aperiam consequatur sint quas pariatur
+            provident aut, illum voluptatem hic impedit, totam ipsam earum,
+            distinctio sed ut!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+            veritatis at nostrum ratione nemo dolorum labore, inventore
+            molestiae eligendi consectetur quaerat quidem unde a blanditiis. Est
+            eaque recusandae numquam architecto.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
